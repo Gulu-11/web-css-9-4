@@ -136,6 +136,242 @@ body {
     font-size: 20px;
     font-weight: 600;
 }
+.section-2 {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 104px;
+    max-width: 1028px;
+    width: 100%;
+    height: 611px;
+    background-image: url("../images/section-2\ back\ img.jpg");
+    background-repeat: no-repeat;
+}
+.mainProvideDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 38px;
+    height: fit-content;
+}
+.provideContent {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.provideText {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.welcomeDiv {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    padding: 8px 16px;
+    background-color: #FFC4E7;
+    width: 269px;
+}
+.welcomeIcon {
+    width: 24px;
+    height: 24px;
+}
+.welcomeText {
+    font-size: 18px;
+    font-weight: 500;
+    color: #DD2590;
+}
+.futuretext {
+    font-size: 45px;
+    font-weight: 800;
+    color: #DD2590;
+    max-width: 469px;
+    width: 100%;
+}
+.provideMiniText {
+    font-size: 18px;
+    color: white;
+    max-width: 484px;
+    width: 100%;
+    line-height: 28px;
+}
+.mainExperDiv {
+    display: flex;
+    gap: 40px;
+}
+.experImgDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 19px;
+    padding: 35px 34px;
+    background-color: #FFC4E7;
+}
+.img-35 {
+    width: 90px;
+    height: 58px;
+}
+.yearsText {
+    font-size: 20px;
+    font-weight: 800;
+    color: #DD2590;
+    width: 107px;
+    text-align: center;
+}
+.experContentDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    color: white;
+    font-size: 18px;
+    width: 246px;
+}
+.section-3 {
+    display: flex;
+    margin-top: 112px;
+    max-width: 1440px;
+    width: 100%;
+    background-color: #DD2590;
+    padding: 84px 206px;
+}
+.mainProfDiv {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+.profContentDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+.profContentTitle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 18px;
+}
+.profContentTitle :first-child {
+    font-size: 45px;
+    font-weight: 800;
+    color: white;
+}
+.profContentTitle :last-child {
+    font-size: 18px;
+    color: white;
+    max-width: 592px;
+    width: 100%;
+    text-align: center;
+}
+.profBtns {
+    display: flex;
+    gap: 30px;
+}
+.commercialBtn {
+    padding: 15px 31px 14px 31px;
+    border: none;
+}
+.commercialTextDiv {
+    display: flex;
+    gap: 7px;
+    align-items: center;
+}
+.commercialIcon {
+    width: 36px;
+    height: 36px;
+}
+.commercialTextDiv a {
+    font-size: 20px;
+    font-weight: 600;
+    color: #000000;
+}
+.residBtn {
+    padding: 14px 36px 17px 36px;
+    background-color: unset;
+    border: 1px solid #FFFFFF;
+}
+.residTextDiv {
+    display: flex;
+    gap: 7px;
+    align-items: center;
+}
+.residIcon {
+    width: 34px;
+    height: 34px;
+}
+.profwhiteText {
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+}
+.industrialBtn {
+    background-color: unset;
+    border: 1px solid #FFFFFF;
+    padding: 15px 45px 18px 45px;
+}
+.industrialTextDiv {
+    display: flex;
+    gap: 7px;
+    align-items: center;
+}
+.industrialIcon {
+    width: 32px;
+    height: 32px;
+}
+.commercialMainDiv {
+    display: flex;
+    width: 100%;
+    background-color: #FFFFFF;
+    padding: 59px 66px;
+}
+.commercialContentMainDiv {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 478px;
+    background-image: url("../images/section-3\ back\ img.png");
+    background-repeat: no-repeat;
+    background-position: right center;
+}
+.commercialContentDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    height: fit-content;
+}
+.commercialContentTextDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.commercialTitleDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+}
+.commercialTitleDiv :first-child {
+    font-size: 35px;
+    font-weight: 800;
+    color: #000000;
+}
+.commercialTitleDiv :last-child {
+    font-size: 18px;
+    color: #7E7E7E;
+    max-width: 391px;
+    width: 100%;
+}
+.readMoreBtn {
+    width: fit-content;
+    padding: 20px 33px;
+    background-color: #DD2590;
+    border: none;
+}
+.readMoreBtn a {
+    font-size: 20px;
+    font-weight: 600;
+    color: #FFFFFF;
+}
+
+
 
 
 
@@ -167,7 +403,70 @@ body {
     .artDiv {
         left: 43px;
     }
+
+    .section-2 {
+        max-width: 704px;
+        width: 100%;
+        background-image: url("../images/section-2\ tablet\ back.jpg");
+        background-repeat: no-repeat;
+        height: fit-content;
+    }
+    .provideMiniText {
+        max-width: 340px;
+        width: 100%;
+    }
+    .mainExperDiv {
+        flex-direction: column;
+    }
+    .futuretext {
+        max-width: 326px;
+    }
+    .experContentDiv {
+        max-width: 340px;
+        width: 100%;
+    }
+
+    .section-3 {
+        margin-top: 63px;
+        padding: 84px 32px;
+        max-width: 704px;
+    }
+    .profContentTitle :last-child {
+        max-width: 563px;
+    }
+    .profBtns {
+        flex-direction: column;
+    }
+    .commercialBtn {
+        padding: 15px 89px;
+    }
+    .commercialTextDiv {
+        gap: 20px;
+    }
+    .residBtn {
+        padding: 14px 104px 17px 104px;
+    }
+    .residTextDiv {
+        gap: 20px;
+    }
+    .industrialBtn {
+        padding: 15px 130px 18px 133px;
+    }
+    .industrialTextDiv {
+        gap: 20px;
+    }
+
+    .commercialContentMainDiv {
+        height: 884px;
+        align-items: flex-start;
+        background-image: url("../images/section-3\ tablet\ back\ img.png");
+        background-repeat: no-repeat;
+        background-position: bottom;
+    }
 }
+
+
+
 @media screen and (max-width: 767px) {
     .socialDiv {
         display: none;
@@ -191,6 +490,7 @@ body {
         width: 100%;
         position: static;
         margin-top: 162px;
+        height: 692px;
     }
     .subTextDiv {
         width: 288px;
@@ -208,6 +508,73 @@ body {
         top: 334px;
     }
     .servicesBtn {
+        padding: 11px 33px;
+    }
+    .section-2 {
+        background-image: url("../images/section-2\ mobile\ back.jpg");
+        background-repeat: no-repeat;
+        height: 977px;
+        align-items: flex-end;
+        justify-content: flex-start;
+        max-width: 288px;
+        margin-top: 32px;
+    }
+    .welcomeDiv {
+        width: 224px;
+    }
+    .welcomeText {
+        font-size: 14px;
+    }
+    .futuretext {
+        font-size: 24px;
+        max-width: 288px;
+    }
+    .provideMiniText {
+        font-size: 14px;
+        line-height: 22px;
+        max-width: 288px;
+    }
+    .mainExperDiv {
+        flex-direction: column;
+        gap: 24px;
+    }
+    .experContentDiv {
+        font-size: 14px;
+    }
+    .section-3 {
+        margin-top: 32px;
+        max-width: 288px;
+        padding: 84px 16px;
+    }
+    .profContentTitle :first-child {
+        font-size: 24px;
+        line-height: 29px;
+        width: 256px;
+    }
+    .profContentTitle :last-child {
+        font-size: 14px;
+        max-width: 256px;
+    }
+    .profBtns {
+        flex-direction: column;
+    }
+    .commercialMainDiv {
+        padding: 32px 16px;
+    }
+    .commercialContentMainDiv {
+        height: 770px;
+        background-image: url("../images/section-3\ mobile\ back.png");
+        background-repeat: no-repeat;
+        background-position: bottom;
+        align-items: flex-start;
+    }
+    .commercialTitleDiv :last-child {
+        font-size: 14px;
+    }
+    .commercialContentDiv {
+        gap: 24px;
+    }
+    .readMoreBtn {
         padding: 11px 33px;
     }
 }
