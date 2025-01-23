@@ -1,0 +1,213 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.headerDiv {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 19px 206px;
+    height: 60px;
+    background-color: #F2F2F2;
+}
+a {
+    text-decoration: none;
+    display: flex;
+}
+body {
+    background-color: #0E0E0E;
+}
+.headerDiv p {
+    font-size: 18px;
+    color: #1C2752;
+}
+.socialDiv {
+    display: flex;
+    gap: 17px;
+}
+.socialIcon {
+    width: 17px;
+    height: 17px;
+}
+.fullMainDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.nextgenDiv {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    gap: 262px;
+}
+.nextgenText {
+    font-size: 35px;
+    font-weight: 800;
+    color: white;
+}
+.nftText {
+    color: #DD2590;
+}
+.contactDiv {
+    display: flex;
+    gap: 68px;
+}
+.mail-call-div {
+    display: flex;
+    gap: 11px;
+    align-items: center;
+}
+.contactIcon {
+    width: 68px;
+    height: 68px;
+}
+.mail-call-text {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+.mail-call-text :first-child {
+    font-size: 20px;
+    font-weight: 700;
+    color: #DD2590;
+}
+.mail-call-text :last-child {
+    font-size: 18px;
+    color: #7E7E7E;
+}
+
+.section-1 {
+    display: flex;
+    position: relative;
+    margin-top: 104px;
+    max-width: 1440px;
+    width: 100%;
+    height: 825px;
+    background-image: url("../images/section-1\ back\ img.png");
+    background-repeat: no-repeat;
+}
+.artDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    height: fit-content;
+    position: absolute;
+    left: 206px;
+    bottom: 56px;
+}
+.artTitleDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 21px;
+}
+.subTextDiv {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    padding: 8px 16px;
+    background-color: #FFFFFF33;
+}
+.wheel {
+    width: 30px;
+    height: 29px;
+}
+.subTextDiv p {
+    font-weight: 500;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+.expText {
+    font-size: 60px;
+    font-weight: 800;
+    color: #FFFFFF;
+    max-width: 619px;
+    width: 100%;
+    line-height: 72px;
+}
+.servicesBtn {
+    padding: 20px 33px;
+    width: 191px;
+    background-color: #DD2590;
+    border: none;
+}
+.servicesBtn a {
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .socialDiv {
+        display: none;
+    }
+    .headerDiv {
+        padding-left: 109px;
+    }
+    .nextgenDiv {
+        flex-direction: column;
+        gap: 16px;
+        align-items: flex-start;
+    }
+    .section-1 {
+        background-image: url("../images/section-1\ tablet\ back\ img.png");
+        background-repeat: no-repeat;
+        max-width: 704px;
+        width: 100%;
+        margin-top: 32px;
+    }
+    .artDiv {
+        left: 43px;
+    }
+}
+@media screen and (max-width: 767px) {
+    .socialDiv {
+        display: none;
+    }
+    .headerDiv {
+        padding: 19px 39px 19px 16px;
+    }
+    .nextgenDiv {
+        flex-direction: column;
+        gap: 16px;
+        align-items: flex-start;
+    }
+    .contactDiv {
+        flex-direction: column;
+        gap: 24px;
+    }
+    .section-1 {
+        background-image: url("../images/section-\ 1\ mobile\ back.png");
+        background-repeat: no-repeat;
+        max-width: 288px;
+        width: 100%;
+        position: static;
+        margin-top: 162px;
+    }
+    .subTextDiv {
+        width: 288px;
+    }
+    .subTextDiv p {
+        font-size: 14px;
+    }
+    .expText {
+        font-size: 24px;
+        line-height: 29px;
+    }
+    .artDiv {
+        gap: 24px;
+        left: 16px;
+        top: 334px;
+    }
+    .servicesBtn {
+        padding: 11px 33px;
+    }
+}
