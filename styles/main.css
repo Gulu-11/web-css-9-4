@@ -608,6 +608,85 @@ body {
     background-repeat: no-repeat;
 }
 
+footer {
+    margin-top: 393px;
+    padding-bottom: 32px;
+    display: flex;
+    justify-content: center;
+
+}
+.footerMainDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 56px;
+    max-width: 1028px;
+    width: 100%;
+}
+.logo-address-div {
+    display: flex;
+    align-items: center;
+}
+.addressDiv {
+    display: flex;
+    justify-content: flex-end;
+    gap: 12px;
+    width: 100%;
+}
+.footerFullDescDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 19px;
+}
+.footerDescDiv {
+    display: flex;
+    padding: 41px 0;
+    border-top: 1px solid #4B557D;
+    border-bottom: 1px solid #4B557D;
+    gap: 32px;
+}
+.copyText {
+    font-size: 18px;
+    color: white;
+}
+.aboutDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+.aboutDiv p {
+    font-size: 18px;
+    color: #FFFFFF;
+    max-width: 380px;
+    width: 100%;
+}
+.followDiv {
+    display: flex;
+    gap: 15px;
+}
+.followImg {
+    width: 60px;
+    height: 60px;
+}
+.line {
+    height: 224px;
+    border: 1px solid #4B557D;
+}
+.linkListDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.firstList {
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+}
+.listlink {
+    font-size: 18px;
+    color: white;
+}
+
 
 
 
@@ -748,6 +827,35 @@ body {
     }
     .section-6 {
         width: fit-content;
+        margin-top: 64px;
+    }
+    .logo-address-div {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 24px;
+    }
+    .addressDiv {
+        justify-content: flex-start;
+    }
+    .footerFullDescDiv {
+        gap: 24px;
+        align-items: flex-start;
+    }
+    .footerDescDiv {
+        border: none;
+        flex-wrap: wrap;
+    }
+    .line {
+        display: none;
+    }
+    .aboutDiv p {
+        max-width: 640px;
+    }
+    .linkListDiv {
+        margin-right: 99px;
+    }
+    .footerMainDiv {
+        max-width: 704px;
     }
 }
 
@@ -931,6 +1039,48 @@ body {
         gap: 24px;
     }
     .peopleCardMainDiv {
+        flex-direction: column;
+        gap: 32px;
+    }
+    .card {
+        max-width: 288px;
+        height: 480px;
+    }
+    .alisaCard {
+        background-image: url("../images/alisa\ back\ img\ mobile.png");
+        background-repeat: no-repeat;
+    }
+    .richCard {
+        background-image: url("../images/rich\ back\ img\ mobile.png");
+        background-repeat: no-repeat;
+    }
+    .annieCard {
+        background-image: url("../images/annie\ back\ img\ mobile.png");
+        background-repeat: no-repeat;
+    }
+    .section-6 {
+        width: fit-content;
+        margin-top: 32px;
+    }
+    .footerMainDiv {
+        max-width: 288px;
+    }
+    .line {
+        display: none;
+    }
+    .logo-address-div {
+        flex-direction: column;
+        gap: 24px;
+        align-items: flex-start;
+    }
+    .addressDiv {
+        flex-direction: column;
+    }
+    .footerFullDescDiv {
+        gap: 24px;
+    }
+    .footerDescDiv {
+        border: none;
         flex-direction: column;
     }
 }
