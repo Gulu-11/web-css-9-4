@@ -371,6 +371,243 @@ body {
     color: #FFFFFF;
 }
 
+.section-4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+    max-width: 1028px;
+    width: 100%;
+    margin-top: 104px;
+}
+.servicesHeaderDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 18px;
+}
+.servicesTitleDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.ourServicesDiv {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    padding: 8px 16px;
+    background-color: #FFC4E7;
+    color: #DD2590;
+    font-size: 18px;
+    font-weight: 500;
+}
+.ourServicesText {
+    font-size: 45px;
+    font-weight: 800;
+    color: #FFFFFF;
+}
+.servicesDesc {
+    font-size: 18px;
+    line-height: 21px;
+    color: white;
+    max-width: 592px;
+    width: 100%;
+    text-align: center;
+}
+.servicesCardsMainDiv {
+    display: flex;
+    gap: 25px;
+}
+.servicesCardDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 37px 47px;
+    background-color: #FFE1F3;
+}
+.servicesCardContent {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.servicesCard {
+    width: 48px;
+    height: 48px;
+}
+.servicesCardDesc {
+    display: flex;
+    flex-direction: column;
+    gap: 11px;
+}
+.servicesCardDesc :first-child {
+    font-size: 20px;
+    font-weight: 700;
+    color: #DD2590;
+}
+.servicesCardDesc :last-child {
+    font-size: 18px;
+    color: #000000;
+    width: 253px;
+}
+.readMoreText {
+    font-size: 18px;
+    font-size: 600;
+    color: #000000;
+}
+.section-5 {
+    display: flex;
+    gap: 60px;
+    align-items: center;
+    margin-top: 104px;
+    max-width: 1234px;
+    width: 100%;
+}
+.reasonsMainDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.reasonsContentDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.reasonsTitleDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.reasonsTitleDesc {
+    font-size: 45px;
+    line-height: 54px;
+    font-weight: 800;
+    color: #DD2590;
+    max-width: 545px;
+    width: 100%;
+}
+.pulvinarText {
+    font-size: 18px;
+    color: #7E7E7E;
+    line-height: 28px;
+    max-width: 481px;
+    width: 100%;
+}
+.reasonsCheckDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.reasonsCheck {
+    display: flex;
+    gap: 13px;
+}
+.checkboxIcon {
+    width: 32px;
+    height: 32px;
+}
+.checkContent {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.checkContent :first-child{
+    font-size: 20px;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+.checkContent :last-child {
+    font-size: 18px;
+    color: #7E7E7E;
+}
+.backgroundDiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 629px;
+    width: 100%;
+    height: 706px;
+    background-image: url("../images/section-5\ back\ img.png");
+    background-repeat: no-repeat;
+}
+.backgroundContentDiv {
+    display: flex;
+    flex-direction: column;
+    height: 483px;
+    justify-content: space-between;
+    padding: 56px;
+    background-color: #1C27524D;
+    backdrop-filter: blur(25px)
+}
+.backContentTextDiv {
+    display: flex;
+}
+.backNumberDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #DD2590;
+    width: 96px;
+    height: 65px;
+}
+.backNumberDiv p {
+    font-size: 25px;
+    font-weight: 800;
+    color: white;
+}
+.backContentText {
+    width: 304px;
+    padding: 17px 22px;
+    font-size: 25px;
+    font-weight: 700;
+    color: white;
+    border: 1px solid #FFFFFF;
+}
+.section-6 {
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+    max-width: 1028px;
+    width: 100%;
+    margin-top: 104px;
+}
+.wordDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 94px;
+}
+.wordDiv :first-child {
+    font-size: 36px;
+    font-weight: 600;
+    color: #DD2590;
+}
+.wordDiv :last-child {
+    font-size: 20px;
+    color: #7E7E7E;
+}
+.peopleCardMainDiv {
+    display: flex;
+    justify-content: space-between;
+}
+.card {
+    max-width: 321px;
+    width: 100%;
+    height: 480px;
+}
+.alisaCard {
+    background-image: url("../images/card\ back\ img.png");
+    background-repeat: no-repeat;
+}
+.richCard {
+    background-image: url("../images/card\ back\ img\ rich.png");
+    background-repeat: no-repeat;
+}
+.annieCard {
+    background-image: url("../images/card\ back\ img\ annie.png");
+    background-repeat: no-repeat;
+}
+
 
 
 
@@ -462,6 +699,55 @@ body {
         background-image: url("../images/section-3\ tablet\ back\ img.png");
         background-repeat: no-repeat;
         background-position: bottom;
+    }
+
+    .servicesCardDesc :first-child {
+        font-size: 16px;
+    }
+    .servicesCardDesc :last-child {
+        width: 145px;
+    }
+    .section-4 {
+        margin-top: 64px;
+    }
+    .section-5 {
+        flex-direction: column;
+    }
+    .backgroundDiv {
+        background-image: url("../images/section-5\ back\ img\ tablet.png");
+        background-repeat: no-repeat;
+    }
+    .wordDiv :first-child {
+        font-size: 45px;
+    }
+    .wordDiv {
+        height: 124px;
+    }
+    .wordDiv :last-child {
+        width: 624px;
+    }
+    .alisaCard {
+        background-image: url("../images/alisa\ back\ img\ tablet.png");
+        background-repeat: no-repeat;
+    }
+    .richCard {
+        background-image: url("../images/rich\ back\ img\ tablet.png");
+        background-repeat: no-repeat;
+    }
+    .annieCard {
+        background-image: url("../images/annie\ back\ img\ tablet.png");
+        background-repeat: no-repeat;
+    }
+    .peopleCardMainDiv {
+        flex-direction: column;
+        gap: 32px;
+    }
+    .card {
+        max-width: 704px;
+        height: 638px;
+    }
+    .section-6 {
+        width: fit-content;
     }
 }
 
@@ -576,5 +862,75 @@ body {
     }
     .readMoreBtn {
         padding: 11px 33px;
+    }
+
+    .ourServicesDiv {
+        font-size: 14px;
+    }
+    .ourServicesText {
+        font-size: 24px;
+    }
+    .servicesDesc {
+        font-size: 14px;
+        max-width: 255px;
+    }
+    .servicesCardDesc :last-child {
+        width: 204px;
+    }
+    .servicesCardsMainDiv {
+        flex-direction: column;
+    }
+    .section-4 {
+        margin-top: 32px;
+    }
+    .section-5 {
+        flex-direction: column;
+    }
+    .backgroundDiv {
+        background-image: url("../images/section-5\ back\ mobile.png");
+        background-repeat: no-repeat;
+        height: 538px;
+    }
+    .reasonsTitleDesc {
+        font-size: 24px;
+        line-height: 32px;
+        max-width: 288px;
+    }
+    .pulvinarText {
+        font-size: 14px;
+        line-height: 22px;
+        max-width: 281px;
+    }
+    .checkContent :first-child {
+        font-size: 16px;
+    }
+    .checkContent :last-child {
+        font-size: 14px;
+        width: 217px;
+    }
+    .backgroundContentDiv {
+        padding: 16px;
+        height: 340px;
+    }
+    .backContentText {
+        font-size: 16px;
+        width: 192px;
+        display: flex;
+        align-items: center;
+    }
+    .wordDiv :first-child {
+        font-size: 24px;
+        width: 288px;
+    }
+    .wordDiv :last-child {
+        width: 255px;
+    }
+    .wordDiv {
+        height: fit-content;
+        justify-content: flex-start;
+        gap: 24px;
+    }
+    .peopleCardMainDiv {
+        flex-direction: column;
     }
 }
